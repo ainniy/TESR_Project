@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import hashlib
 import rdflib
 from rdflib import Graph, Literal, URIRef, Namespace
-from rdflib.namespace import RDF, RDFS, XSD, FOAF
+from rdflib.namespace import RDF, RDFS, XSD
 
 tree= ET.parse("gwangju_photo.xml")
 root=tree.getroot()
@@ -25,7 +25,7 @@ copyright=root.find("photo/copyright").text
 metadata_id=hashlib.md5(title_en.encode("utf-8")).hexdigest()
 metadata_uri= URIRef(ex+metadata_id)
 
-g.add((metadata_uri, RDF.type, DBO.Photo))
+g.add((metadata_uri, RDF.type, DBO.Image))
 g.add((metadata_uri, RDFS.label, Literal(title_ko, lang="ko")))
 g.add((metadata_uri, RDFS.label, Literal(title_en, lang="en")))
 g.add((metadata_uri, ex.description_ko, Literal(description_ko, lang="ko")))
