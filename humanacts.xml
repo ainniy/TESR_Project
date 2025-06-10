@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="humanacts.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Human Acts(Digital Edition)</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Ahin Kwon</name>
+                </respStmt>
+            </titleStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Han Kang</author>
+                    <translator>Deborah Smith</translator>
+                    <title>Human Acts</title>
+                    <date when="2016"/>
+                </bibl>
+            </sourceDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>Encoded for coursework</p>
+                </projectDesc>
+            </encodingDesc>
+        </fileDesc>
+        <profileDesc>
+            <listPlace>
+                <place xml:id="PO" sameAs="https://ko.wikipedia.org/wiki/%EA%B4%91%EC%A3%BC_%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%EC%B2%AD_%EA%B5%AC_%EB%B3%B8%EA%B4%80">
+                    <placeName>Provincial Office</placeName>
+                </place>
+                <place xml:id="RCH" sameAs="https://ko.wikipedia.org/wiki/%EC%84%9C%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90%EB%B3%91%EC%9B%90">
+                    <placeName>Red Cross Hospital</placeName>
+                </place>
+                <place xml:id="JN" sameAs="https://en.wikipedia.org/wiki/South_Jeolla_Province">
+                    <placeName>Jeonnam</placeName>
+                    <geo>35.0169, 126.7052</geo>
+                </place>
+                <place xml:id="DJ" sameAs="https://en.wikipedia.org/wiki/Daejeon">
+                    <placeName>Daejeon</placeName>
+                    <geo>36.3504, 127.3845</geo>
+                </place>
+            </listPlace>
+            <listPerson>
+                <person xml:id='MJH' sameAs="http://gwangju.grandculture.net/gwangju/toc/GC60002225">
+                    <persName type="real">Moon Jaehak</persName>
+                    <persName type="fiction"> </persName>
+                </person>
+                <person xml:id='JD'>
+                    <persName>Jung-Dae</persName>
+                </person>
+                <person xml:id='JS'>
+                    <persName>Jung-Su</persName>
+                </person>
+            </listPerson>
+            <listEvent>
+                <event xml:id="gwangju_uprising" when="1980-05-18">
+                    <desc>5·18 광주민주화운동</desc>
+                </event>
+            </listEvent>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" n="1">
+                <head rend="bold" type="main">The Boy, 1980</head>
+                <p><q>Looks like rain,</q><persName ref='#MJH'>you</persName> mutter to <persName ref='#MJH'>yourself</persName>.</p>
+                <p><q><hi rend="italic">What'll we do if it really chucks it down?</hi></q></p>
+                <p><persName ref='#MJH'>you</persName> open <persName ref='#MJH'>your</persName> eyes so that only a slender crack of light seeps in, and peer at the gingko trees in front of the <placeName ref="#PO">Provincial Office</placeName>.
+                    As though there, between those branches, the wind is about to take on visible form. As though the raindrops suspended in the air, held breath before the plunge, are on the cusp of trembling down, glittering like jewels.</p>
+                <p>When <persName ref='#MJH'>you</persName> open <persName ref='#MJH'>your</persName> eyes properly, the trees' outlines dim and blur. <persName ref='#MJH'>you</persName>'re going to need glasses before long.
+                    This thought gets briefly disturbed by the whooping and applause that breaks out from the direction of the fountain. Perhaps <persName ref='#MJH'>you</persName> sight's as bad now as it's going to get, and <persName ref='#MJH'>you</persName>'ll be able to get away without glasses after all?</p>
+                <p><q><hi rend="italic">Listen to me if <persName ref='#MJH'>you</persName> know what's good for <persName ref='#MJH'>you</persName>: come back home, right this mintue.</hi></q></p>
+                <p><persName ref='#MJH'>you</persName> shake <persName ref='#MJH'>your</persName> head, trying to rid <persName ref='#MJH'>yourself</persName> of the memory, the anger lacing <persName ref='#MJH'>your</persName> brother's voice.
+                    From the speakers in front of the fountain comes the clear, crisp voice of the young woman holding microphone. <persName ref='#MJH'>You</persName> can't see the fountain from where <persName ref='#MJH'>you</persName>'re sitting, on the steps leading up to the municipal gymnasium.
+                    <persName ref='#MJH'>You</persName>'d have to go around to the right of the building if <persName ref='#MJH'>you</persName> wanted to have even a distant view of the memorial service. Instead, <persName ref='#MJH'>you</persName> resolve to stay where <persName ref='#MJH'>you</persName> are, and simply listen.</p>
+                <p><q>Brothers and sisters, our loved ones are being brought here today from the <placeName ref="#RCH">Red Cross Hospital</placeName>.</q></p>
+                <p>The woman then leads the crowd gathered in the square in a chorus of the national anthem. Her voice is soon lost in the multitude, thousands of voices piling up on top of one another, a soaring tower of sound rearing up into the sky. The melody surges to peak, only to swing down again like a pendulum. The low murmur of <persName ref='#MJH'>your</persName> own voice is barely audible.</p>
+                <p>This morning, when <persName ref='#MJH'>you</persName> asked how many dead were being transferred from the <placeName ref="#RCH">Red Cross Hospital</placeName> today, <persName ref='#JS'>Jin-Su</persName>'s reply was no more elaborate than it needed to be:thirty. While the leaden mass of the anthem's refrain rises and falls, rises and falls, thirty coffins will be lifted down from the truck, one by one.
+                    They will be placed in a row next to the twenty-eight that <persName ref='#MJH'>you</persName> and <persName ref='#JS'>Jin-Su</persName> laid out this morning, the line stretching all the wat from the gym to the fountain. Before yesterday evening, twenty-six of the eighty-three coffins hadn't yet been brought out for a group memorial service; yesterday evening this number had grown to twenty-eight, when two families had appeared and each identified a corpse.
+                    These were then placed in coffins, with a necessarily hasty and improvised version of the usual rites. After making a note of their names and coffin numbers in <persName ref='#MJH'>your</persName> ledger, <persName ref='#MJH'>you</persName> added "group memorial service" in parentheses;<persName ref='#JS'>Jin-Su</persName> had asked <persName ref='#MJH'>you</persName> to make a clear record of which coffins had already gone through the service, to prevent the same ones being brought out twice.
+                    <persName ref='#MJH'>you</persName>'d wanted to go and watch, just this one time, but <persName ref='#JS'>he</persName> told <persName ref='#MJH'>you</persName> to stay at the gym.</p>
+                <p><q>Someone might come looking for a relative while the service is going on. We need someone manning the doors.</q></p>
+                <p>Left on <persName ref='#MJH'>your</persName> own, <persName ref='#MJH'>you</persName> sit down on the steps that lead up to the gym, resting the ledger, an improvised thing whose cover is a piece of black strawboard bent down the middle, on <persName ref='#MJH'>your</persName> knee.The chill from the concrete steps leaches through <persName ref='#MJH'>your</persName> thin tracksuit bottoms.
+                    <persName ref='#MJH'>Your</persName> PE jacket is buttoned up to the top, and <persName ref='#MJH'>you</persName> keep <persName ref='#MJH'>your</persName> arms firmly folded across <persName ref='#MJH'>your</persName> chest.</p>
+                <p>The anthem is over, but there seems to be some delay with the coffins. Perhaps there are just too many. The sound of wailing sobs is faintly audible amid the general commotion. The woman holding microphone suggests they all sing <q><hi rend="italic">Arirang</hi></q> while they wait for the coffins to be got ready.</p>
+                <p><hi rend="italic">You who abandoned me here</hi></p>
+                <p><hi rend="italic">Your feet will pain you before you've gone even ten ri...</hi></p>
+                <p>When the song subsides, the woman says, <q>Let us now hold a minute's silence for the deceased.</q> The hubbub of a crowd of thousands dies down as instantaneously as if someone had pressed a mute button, and the silence it leaves in its wakes seems shockingly stark. <persName ref='#MJH'>You</persName> get to <persName ref='#MJH'>your</persName> feet to observe the minute's silence, then walk up the steps to the main doors, on half of which has been left open. <persName ref='#MJH'>you</persName> get <persName ref='#MJH'>your</persName> surgical mask out from <persName ref='#MJH'>your</persName> trouser pocket and put it on.</p>
+                <p><hi rend="italic">These candles are no use at all.</hi></p>
+                <p><persName ref='#MJH'>You</persName> step into the gym hall, fighting down the wave of nausea that hits <persName ref='#MJH'>you</persName> with the stench. It's the middle of the day, but the dim interior is more like eveving's dusky half-light. The coffins that have already been through the memorial service have been grouped neatly near the door, while at the foot of the large window, each covered with a white cloth, lie the bodies of thirty two people for whom no relatives have yet arrived to put them in their coffins. Next to each of their heads, a candle wedged into an empty drinks bottle flickers quietly.</p>
+                <p><persName ref='#MJH'>You</persName> walk farther into the auditorium, toward the row of seven corpses that have been laid out to one side. Whereas the others have their cloths pulled up only to their throats, almost as though they are sleeping, these are all fully covered. Their faces are revealed only occasionally, when someonoe comes looking for a young girl or a baby. The sight of them is too cruel to be inflicted otherwise.</p>
+                <p><persName ref='#MJH'>You</persName> come back to the table by the door to get some new candles from the box, then return to the body in the corner. <persName ref='#MJH'>You</persName> light the cloth wicks of the new candle from the melted stub guttering by the corpse. Once the flame catches, <persName ref='#MJH'>you</persName> blow out the dying candle and remove it from the glass bottle, then insert the new one in its place, careful no to burn <persName ref='#MJH'>yourself</persName>.</p>
+                <p>At first, the bodies had been housed not in the gymnasium, but in the corridor of ther complaints department in the <placeName ref="#PO">Provincial Office</placeName>. There were two women, both a few years older than <persName ref='#MJH'>you</persName>, one wearing a wide-collared school uniform and the other in ordinary clothes. <persName ref='#MJH'>You</persName> stared blankly, forgetting for a moment why <persName ref='#MJH'>you</persName>'d come, as they wiped the bloodied faces with a damp cloth and struggled to straighten the stiff arms, to force them down by the corpses' sides.</p>
+                <p><q>Can I help <persName ref='#MJH'>you</persName>?</q> the woman in school uniform asked, pulling her mask down below her mouth as she turned to face <persName ref='#MJH'>you</persName>. Her round eyes were her best feature, though ever-so-slightly protruding, and her hair was divided into two braids, from which a mass of short, frizzy hair was divided into two braids, from which a mass of short, frizzy haris were escaping. Damp with sweat, her hair was plastered to her forehead and temples.</p>
+                <p><q><persName ref='#MJH'>I</persName>'m looking for a <persName ref='#JD'>friend</persName>,</q><persName ref='#MJH'>you</persName> said, holding out the hand that <persName ref='#MJH'>you</persName>'d been using to cover <persName ref='#MJH'>your</persName> nose, unused to the stench of blood.</p>
+                <p><q>Did <persName ref='#MJH'>you</persName> arrange to meet here?</q></p>
+                <p><q>No, <persName ref='#JD'>he</persName>'s one of those...</q></p>
+                <p><q>I see, <persName ref='#MJH'>you</persName> can come and have a look, if <persName ref='#MJH'>you</persName> like.</q></p>
+                <p><persName ref='#MJH'>You</persName> systematically examined the faces and bodies of the twenty-odd people lying against the corridor wall. <persName ref='#MJH'>You</persName> had to look closely if <persName ref='#MJH'>you</persName> wanted to be sure;<persName ref='#MJH'>your</persName> eyes soon started to feel the strain, and <persName ref='#MJH'>you</persName> had to keep blinking to try and refocus.</p>
+                <p><q>Not here?</q> the other woman asked, straightening up. She had the sleeves of her pale green shirt rolled up to the elbows. <persName ref='#MJH'>You</persName>'d assumed she was a similar age to the young woman in school uniform; seeing her without the mask on, though, you could see she was older, more like twenty. Her skin was somewhat sallow, and she had a slender, delicate neck. Only the look in her eyes was tough and vigorous. And there was nothing feeble about her voice.</p>
+                <p><q>No.</q></p>
+                <p><q>Have <persName ref='#MJH'>you</persName> tried the mortuary at <placeName ref="#JN">Jeonnam</placeName>, and the one at the <placeName ref="#RCH">Red Cross Hospital</placeName>?</q></p>
+                <p><q>Yes.</q></p>
+                <p><q>What about this <persName ref='#JD'>friend</persName>'s parents</q></p>
+                <p><q><persName ref='#JD'>His</persName> mother passed away, and <persName ref='#JD'>his</persName> father works in <placeName ref="#DJ">Daejeon</placeName>; <persName ref='#JD'>he</persName> lives in our annex with <persName ref='#JD'>his</persName> older sister.</q></p>
+                <p><q>They still won't put long-distance calls through?</q></p>
+                <p><q>No, and <persName ref='#MJH'>I</persName>'ve tried a few times.</q></p>
+                <p><q>Well, what about your <persName ref='#JD'>friend</persName>'s sister?</q></p>
+                <p><q>She hasn't been home since Sunday; <persName ref='#MJH'>I</persName> came here to look for her, too. One of our neighbors said they saw my <persName ref='#JD'>friend</persName> get hit yesterday when the soldiers were shooting.</q></p>
+                <p><q>Mightn't <persName ref='#JD'>he</persName> just have been wounded and admitted to <placeName ref="#RCH">hospital</placeName>?</q> the woman in school uniform interjected, without looking up.</p>
+                <p><persName ref='#MJH'>You</persName> shook <persName ref='#MJH'>your</persName> head.</p>
+                <p><q>In that case <persName ref='#JD'>he</persName> would have found a way to call us. <persName ref='#JD'>He</persName>'d know we were worrying about him.</q></p>
+                <p><q>Come by again tomorrow, and the next couple of days,</q> said the woman in the pale green shirt. <q>Apparently all the dead will be brought here from now on. They say there's no room left in the morgues.</q></p>
+                <p>The woman in school uniform wiped the face of a yound man whose throat had been sliced open by a bayonet, his red uvula poking out. She brushed the palm of her hand down over his staring eyes, closing them, rinsed the cloth in a bucket of water, and wrung it out viciously. The water that came out was dark with blood, splattering outside the bucket. The woman in the green shirt stood up.</p>
+                <p><q>How about <persName ref='#MJH'>you</persName> give us a hand, if <persName ref='#MJH'>you</persName> have time?</q> she asked. <q>Just for today. We don't have enough people. It's not difficult... <persName ref='#MJH'>you</persName> just need to cut up that cloth over there and use it to cover the bodies. And when someone comes looking for a friend like <persName ref='#MJH'>you</persName> did, <persName ref='#MJH'>you</persName> uncover them again. The faces are badly injured, so they'll need to get a good look at their bodies and clothes to decide whether it's who they think it is.</q></p>
+            </div>    
+        </body>
+    </text>
+</TEI>
