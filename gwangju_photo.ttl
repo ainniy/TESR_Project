@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://dbpedia.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://w3id.org/example/443496256fbf61619ea4ac0088486b36> a ns1:Image ;
+    rdfs:label "Bodies moved to the Jeonnam province office"@en,
+        "전라남도청에 옮겨온 시신들"@ko ;
+    ns1:copyright "The May 18 Foundation" ;
+    ns1:photographer <http://w3id.org/example/aa3d20b7e29ab0c6e0dc6ef5114271a3> ;
+    dc:date "1980-05-23"^^xsd:date ;
+    dc:description "(photographer's memory)It's a place between the Jeonnam province office and the police station. The coffin of the identified corpse was covered with a Taegeukgi."@en,
+        "(촬영자의 기억)전라남도청과 경찰국 사이의 공간이다. 신원이 확인된 시체의 관은 태극기로 덮었다."@ko ;
+    dc:identifier "IT-00041921" ;
+    dc:source "The May 18 Foundation" ;
+    foaf:homepage <https://518memory.org/record/detail/item/41921> .
+
+<http://w3id.org/example/aa3d20b7e29ab0c6e0dc6ef5114271a3> a foaf:Person ;
+    foaf:name "나경택" .
+

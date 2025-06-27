@@ -1,0 +1,39 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://dbpedia.org/ontology/> .
+@prefix ns2: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://w3id.org/example/157d90806776643bac8b2cd43369be7c> a ns1:Book ;
+    rdfs:label "Human Acts(Digital Edition)" ;
+    ns1:author <http://w3id.org/example/a48a5a5ea93fc812f5ac4c5bd502d18a> ;
+    ns1:editor <http://w3id.org/example/9383181ed9764414b94ad7911fad9029> ;
+    ns1:publicationDate "2016"^^xsd:gYear ;
+    ns1:translator <http://w3id.org/example/63a5534b67d93a32001959523a0fb194> ;
+    ns2:associatedMedia <http://w3id.org/example/d8afc4120a02653bc942d26bea6992a3> ;
+    ns2:character <http://w3id.org/example/1f6256e9856c9e2a705e2dff136af714>,
+        <http://w3id.org/example/666dfffaa6e4724271bfb179f306e541>,
+        <http://w3id.org/example/7215ee9c7d9dc229d2921a40e899ec5f> .
+
+<http://w3id.org/example/1f6256e9856c9e2a705e2dff136af714> a foaf:Person ;
+    rdfs:label "Jung-Dae" .
+
+<http://w3id.org/example/63a5534b67d93a32001959523a0fb194> a foaf:Person ;
+    foaf:name "Deborah Smith" .
+
+<http://w3id.org/example/666dfffaa6e4724271bfb179f306e541> a foaf:Person ;
+    rdfs:label "Jung-Su" .
+
+<http://w3id.org/example/7215ee9c7d9dc229d2921a40e899ec5f> a foaf:Person ;
+    rdfs:label " " ;
+    foaf:name "Moon Jaehak" .
+
+<http://w3id.org/example/9383181ed9764414b94ad7911fad9029> a foaf:Person ;
+    foaf:name "Editor:Ahin Kwon" .
+
+<http://w3id.org/example/a48a5a5ea93fc812f5ac4c5bd502d18a> a foaf:Person ;
+    foaf:name "Han Kang" .
+
+<http://w3id.org/example/d8afc4120a02653bc942d26bea6992a3> a ns2:ImageObject ;
+    rdfs:label "Background photos from gwangju_photo.xml" .
+
